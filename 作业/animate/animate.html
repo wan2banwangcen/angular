@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>animate</title>
+    <style>
+     
+    </style>
+</head>
+<body>
+    <div>
+    <img src="images/1.jpg" id="imgs">
+    </div>
+    <script>
+        window.onload=function(){
+           var imgs=document.getElementById("imgs");
+           var i=1;
+           setInterval(function(){
+           if(i<8){
+               i++;
+           }else{
+               i=1;
+           }
+           imgs.src="images/"+i+".jpg";
+           console.log(i);
+           },3000);
+        }
+    </script>
+</body>
+</html>
