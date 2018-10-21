@@ -1,0 +1,307 @@
+.body{
+    text-align: center;
+    margin:0 auto;
+    width:1000px;
+    margin-top:20px;
+}
+.body-left{
+    width:200px;
+    margin-top:10px;
+    float: left;
+    margin-right: 20px;
+}
+.left-top{
+    width:200px;
+    height:200px;
+    background-image: url(images/yonghu2.png);
+    background-size: 200px 200px;
+}
+.left-cen{
+    width:200px;
+    height:80px;
+    text-align: center;
+    margin-top:5px;
+    padding-bottom: 10px;
+    border-bottom:solid 3px rgba(200,200,200,0.5);
+}
+.yonghu{
+    text-align: center;
+    font-size: 18px;
+}
+.yonghu2{
+    width: 200px;
+    margin-top: 3px;
+}
+.guanzhu{
+    width:50px;
+    float: left;
+    margin: 5px 20px;
+    font-size: 20px;
+    text-align: center;
+}
+.fensi{
+    width:50px;
+    float: left;
+    margin: 5px 20px;
+    font-size: 20px;
+    text-align: center;
+}
+.left-bot{
+    width:200px;
+    padding-left:10px;
+    margin-top:10px;
+}
+.left-bot ul li{
+    text-align: left;
+    font-size: 16px;
+    list-style: none;
+}
+.left-bot ul li a{
+    list-style: none;
+    color:#000;
+    line-height: 30px;
+}
+.left-bot ul li a:hover{
+    color:#ff8c00;
+}
+.left-bot .sp{
+    float: right;
+    margin-right: 20px;
+}
+.icon1{
+    display: inline-block;
+    width:14px;
+    height:14px;
+    background-image: url(images/renwu2.png);
+    background-position: center center;
+    background-size: 14px 14px;
+    background-repeat: no-repeat;
+    margin-right:3px;
+    color:#ff6e3d;
+}
+.icon2{
+    display: inline-block;
+    width:14px;
+    height:14px;
+    background-image: url(images/course.png);
+    background-position: center center;
+    background-size: 14px 14px;
+    background-repeat: no-repeat;
+    margin-right:3px;
+}
+.icon3{
+    display: inline-block;
+    width:14px;
+    height:14px;
+    background-image: url(images/tongbuke.png);
+    background-position: center center;
+    background-size: 14px 14px;
+    background-repeat: no-repeat;
+    margin-right:3px;
+}
+.icon4{
+    display: inline-block;
+    width:14px;
+    height:14px;
+    background-image: url(images/qieshuo.png);
+    background-position: center center;
+    background-size: 14px 14px;
+    background-repeat: no-repeat;
+    margin-right:3px;
+}
+.icon5{
+    display: inline-block;
+    width:14px;
+    height:14px;
+    background-image: url(images/tongzhi.png);
+    background-position: center center;
+    background-size: 14px 14px;
+    background-repeat: no-repeat;
+    margin-right:3px;
+}
+.body-right{
+    float:left;
+    width:770px;
+    margin-left:20px;
+    margin:10px auto;
+    box-shadow:5px 5px 5px #eee;
+    padding-bottom: 5px;
+}
+.right-top{
+    width:720px;
+    border-bottom:solid 3px #eee;
+    float: left;
+    margin-left:20px;
+    
+}
+.uul{
+    width:330px;
+    height: 41px;
+    float: left;
+    margin-top:7px;
+}
+.uul li{
+    float: left;
+    font-size: 14px;
+    margin-top:17px;
+    margin-right:28px;
+}
+.uul a{
+    color:#000;
+}
+.icon6{
+    display: inline-block;
+    width:14px;
+    height:14px;
+    background-image: url(images/weitijiao.png);
+    background-position: center center;
+    background-size: 14px 14px;
+    background-repeat: no-repeat;
+    margin-right:3px;
+}
+.icon7{
+    display: inline-block;
+    width:14px;
+    height:14px;
+    background-image: url(images/yiwancheng.png);
+    background-position: center center;
+    background-size: 14px 14px;
+    background-repeat: no-repeat;
+    margin-right:3px;
+}
+.icon8{
+    display: inline-block;
+    width:14px;
+    height:14px;
+    background-image: url(images/yiwanjie.png);
+    background-position: center center;
+    background-size: 14px 14px;
+    background-repeat: no-repeat;
+    margin-right:3px;
+}
+.search{
+    float: right;
+    width:230px;
+    margin-top:5px;
+    margin-top:15px;
+}
+.txt{
+    width:160px;
+    height:24px;
+    border-radius: 4px;
+    float: right;
+}
+.but{
+    float:right;
+    display: block;
+    width:45px;
+    height:26px;
+    border-radius: 4px;
+}
+.icon9{
+    display: inline-block;
+    width:15px;
+    height:15px;
+    background-image: url(images/sousuo.png);
+    background-position: center center;
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+    margin-right:3px;
+}
+.right-bot{
+    float:left;
+    width:715px;
+    height:80px;
+    margin-top:10px;
+    margin-left:20px;
+    text-align: left;
+    padding-top:10px;
+}
+.right-top a{
+    text-decoration: none;
+}
+.renwu11{
+    width:715px;
+    height:35px;
+}
+.renwu22{
+    font-size:16px;
+    font-weight: bold;
+    color:#000;
+    margin-left:10px;
+}
+.jiezhi{
+    font-size: 14px;
+    color:#5e74ee;
+    border:solid 1px #2a48f3;
+    border-radius: 3px;
+    margin-left:8px;
+}
+.tijiao{
+    font-size: 14px;
+    color:#ff6e3d;
+    border:solid 1px #ff6e3d;
+    border-radius: 10px;
+    margin-left: 8px;
+}
+.fen{
+    float: right;
+    margin-right: 10px;
+    color:#5e74ee;
+    font-size: 16px;
+}
+.hunhe{
+    float: left;
+    display: block;
+    width:715px;
+    height:30px;
+    border: solid 1px #f5f5f5;
+    background-color: #f5f5f5;
+    margin-top:10px;
+}
+.icon10{
+    display: inline-block;
+    width:14px;
+    height:14px;
+    background-image: url(images/tongbuke.png);
+    background-position: center center;
+    background-size: 14px 14px;
+    background-repeat: no-repeat;
+    margin-right:3px;
+}
+.bi{
+    display: block;
+    text-align: center;
+    width:40px;
+    height:30px;
+    border-left: solid 1px #ccc;
+    float: right;
+}
+.bi2{
+    display: block;
+    text-align: center;
+    width:40px;
+    height:30px;
+    border-left: solid 1px #ccc;
+    float: right;
+}
+.icon14{
+    display: inline-block;
+    width:20px;
+    height:20px;
+    background-image: url(images/bi.png);
+    background-position: center center;
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    margin-top:5px;
+}
+.icon13{
+    display: inline-block;
+    width:20px;
+    height:20px;
+    background-image: url(images/3.png);
+    background-position: center center;
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    margin-top:5px;
+}

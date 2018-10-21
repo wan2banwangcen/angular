@@ -1,0 +1,142 @@
+.body{
+    width:740px;
+    margin:0 auto;
+    border:solid 1px #ccc;
+    margin-top:20px;
+}
+.img{
+    width:740px;
+    height:300px;
+}
+.images{
+    width:740px;
+    height:300px;
+}
+.container1{
+    width:740px;
+    margin-top:15px;
+}
+.name{
+    display: block;
+    font-size: 28px;
+    line-height: 20px;
+}
+.container2{
+    width:740px;
+    margin-top:20px;
+    height: 50px;
+}
+.images1{
+    width:40px;
+    height:40px;
+    border-radius: 60px;
+    float: left;
+}
+.author{
+    display: block;
+    width:55px;
+    color:gray;
+    font-size: 14px;
+    margin-left:10px;
+    margin-top:15px;
+    float:left
+}
+.icon{
+    display: inline-block;
+    width:15px;
+    height:15px;
+    background-image: url(images/1.png);
+    background-position: center center;
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+    margin-top:16px;
+    margin-right:5px;
+}
+.hour{
+    color:gray;
+    font-size: 14px;
+}
+.read{
+    color:gray;
+    float:right;
+    margin-right: 5px;
+    font-size: 14px;
+    margin-top:15px;
+}
+.article{
+    width:740px;
+    margin-top:10px;
+    margin-left:5px;
+    font-size: 16px;
+    color:#000;
+    line-height: 1.7;
+}
+.article img{
+    margin-left: 150px;
+}
+.authors{
+    margin-top:20px;
+    width:740px;
+    height:50px;
+    background-color:#f6f6f6;
+    border-color:#f6f6f6;
+}
+.images2{
+    width:40px;
+    height:40px;
+    border-radius: 50px;
+    margin-left:20px;
+    margin-top:5px;
+    float: left;
+}
+.teacher{
+    width:120px;
+    height:45px;
+    font-size: 14px;
+    float:left;
+    padding-top:5px;
+    margin-left:10px;
+}
+.teacherName{
+    display: block;
+    color:blue;
+}
+.icon1{
+    display: inline-block;
+    width:13px;
+    height:13px;
+    background-image: url(images/1.png);
+    background-position: center center;
+    background-size: 13px 13px;
+    background-repeat: no-repeat;
+}
+.hebei{
+    color:#666;
+}
+.but{
+    background-color: #ff6e3d;
+    border-color: #ff5b23;
+    width:53px;
+    height: 25px;
+    border-radius: 5px;
+    float: right;
+    margin-top:10px;
+    margin-right: 25px;
+    color:#fff;
+}
+.shoucang{
+    width:740px;
+    height:30px;
+    border:solid 1px #ccc;
+    margin-top:25px;
+}
+.shoucang  a{
+    display: block;
+    line-height: 22px;
+    width: 183px;
+    height: 22px;
+    text-align: center;
+    color:#808080;
+    border-right:solid 1px #d9d9d9;
+    float: left;
+}

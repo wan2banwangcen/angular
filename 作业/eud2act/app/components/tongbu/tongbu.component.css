@@ -1,0 +1,81 @@
+.body{
+    width: 1000px;
+    margin: 0 auto;
+    margin-top:20px;
+}
+.container{
+    width:1000px;
+    margin-top:15px;
+}
+.container li{
+    display: block;
+    width:238px;
+    height:250px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom:15px;
+    border:solid 1px #ccc;
+    border-radius:5px;
+}
+.container li img{
+    width:238px;
+    height:130px;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+    margin-bottom:10px;
+}
+.name{
+    font-style: normal;
+    font-size: lem;
+    margin-left:15px;
+    line-height: 22px;
+    color: #333;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.renwu{
+    margin-top:20px;
+    padding-top:20px;
+}
+.task{
+    font-style: normal;
+    font-size: lem;
+    
+    line-height: 22px;
+    color: #333;
+    margin-right:30px;
+}
+.people{
+    font-style: normal;
+    font-size: lem;
+    line-height: 22px;
+    color: #333;
+}
+.but{
+    float: right;
+    margin-right:10px;
+    background-color: #ff6e3d;
+    border-color: #ff5b23;
+    border-radius: 5px;
+    width:53px;
+    height:25px;
+}
+.icon1{
+    display: inline-block;
+    width:15px;
+    height:15px;
+    background-image: url(images/task.png);
+    background-position: center center;
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+    margin-left:15px;
+}
+.icon2{
+    display: inline-block;
+    width:15px;
+    height:15px;
+    background-image: url(images/people.png);
+    background-position: center center;
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+}

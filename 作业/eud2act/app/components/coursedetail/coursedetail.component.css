@@ -1,0 +1,107 @@
+.body{
+    width:980px;
+    margin:0 auto;
+    margin-top:20px;
+    /* border:solid 1px #ccc; */
+}
+.body-top{
+    width:980px;
+}
+.icon{
+    display: inline-block;
+    width:14px;
+    height:14px;
+    background-image: url(images/2.png);
+    background-position: center center;
+    background-size: 14px 14px;
+    background-repeat: no-repeat;
+    margin-right:3px;
+}
+.name{
+    color:#ff6e3d;
+    text-decoration: none;
+    font-size: 14px;
+}
+.shuoming{
+    color:#ddd;
+    text-decoration: none;
+    font-size: 14px;
+}
+.kecheng{
+    display: block;
+    text-decoration: none;
+    font-size:17px;
+    color:#000;
+    margin-top:10px;
+}
+.body-cen{
+    width:980px;
+    margin-top:10px;
+    /* border:solid 1px red; */
+}
+.video{
+    width:705px;
+    float:left;
+    height:453px;
+    /* border:solid 1px green; */
+    background-color: #2b2b2b;
+}
+.vid{
+    width:705px;
+    height:453px;
+}
+.meun{
+    width:270px;
+    float: left;
+    height:413px;
+    /* border:solid 1px palevioletred; */
+    background-color: #2b2b2b;
+    padding-top:40px;
+    overflow-y:scroll
+}
+.meun ul li{
+    display: block;
+    margin-left:30px;
+    width:200px;
+    margin-bottom: 10px;
+}
+.meun ul li a{
+    font-size: 17px;
+    color:#fff;
+}
+.body-bot{
+    width:980px;
+    margin-top:10px;
+    /* border:solid 1px blue; */
+    float: left;
+}
+.bot-left{
+    width:700px;
+    margin-top:10px;
+    float: left;
+}
+.jieshao{
+    width:700px;
+    height:120px;
+    border:solid 1px #ccc;
+    border-radius: 3px;
+    padding-top:15px;
+}
+.jieshao2{
+    margin-left: 15px;
+}
+.jia{
+    width:700px;
+    float: left;
+    margin-top:50px;
+}
+.guanzhu{
+    float: right;
+    margin-right: 15px;
+    text-decoration: none;
+    color:#333;
+    font-size: 16px;
+}
+.guan{
+    color:#ff6e3d;
+}

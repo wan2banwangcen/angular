@@ -1,0 +1,47 @@
+<div class="body">
+  <div class="form">
+    <form>
+      <select  class="select">
+        <option value="" disabled selected hidden>课程分类</option>        
+        <option value="first"><a href="">WEB前端开发<span class="hour">11课程</span></a></option>
+        <option value="second"><a href="">WEB后端开发<span class="hour">13课程</span></a></option>
+        <option value="third"><a href="">移动应用开发<span class="hour">6课程</span></a></option>
+        <option value="four"><a href="">软件测试<span class="hour">28课程</span></a></option>
+        <option value="five"><a href="">数据库<span class="hour">3课程</span></a></option>
+        <option value="six"><a href="">基础知识&实用工具<span class="hour">5课程</span></a></option>
+        <option value="seven"><a href="">网络&操作系统<span class="hour">1课程</span></a></option>
+        <option value="eight"><a href="">软件设计&系统架构<span class="hour">1课程</span></a></option>
+        <option value="nine"><a href="">产品设计<span class="hour">15课程</span></a></option>
+      </select>
+      <select class="select1">
+        <option value="" disabled selected hidden>课程体系</option>
+        <option value="first"><a href="">计算机基础技能</a></option>
+        <option value="second"><a href="">Web前端工程师</a></option>
+        <option value="third"><a href="">Android开发工程师</a></option>
+        <option value="four"><a href="">MySQL数据库工程师</a></option>
+        <option value="five"><a href="">产品设计</a></option>
+        <option value="six"><a href="">软件测试工程师</a></option>
+        <option value="seven"><a href="">全部体系</a></option>
+      </select>
+    </form>
+  </div>
+  <div class="container">
+    <ul>
+      <li *ngFor="let lesson of lessons;">
+        <a [routerLink]="['/course',lesson.id]">
+        <img src="{{lesson.images}}" alt="">
+        <div class="len">
+        <span class="name">{{lesson.lessonName}}</span>
+        </div>
+        <div class="int">
+        <span class="introduce">{{lesson.introduce}}</span>
+        </div>
+        <div class="renwu">
+          <span class="hours">课时&nbsp;{{lesson.hour}}</span>
+          <span class="people">人数&nbsp;{{lesson.person}}</span>
+        </div>
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>

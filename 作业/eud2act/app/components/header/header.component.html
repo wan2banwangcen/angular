@@ -1,0 +1,35 @@
+<nav>
+  <div class="img"><img src="src/assets/images/logo.png" class="imgs"></div>
+  <div>
+    <ul class="nav">
+      <li><a [routerLink]="['/home']">首页</a></li>
+      <li><a [routerLink]="['/tongbu']">同步课</a></li>
+      <li><a [routerLink]="['/course']">课程</a></li>
+      <li><a [routerLink]="['/shequ']" [queryParams]="{id:100,name:23}">社区</a></li>
+    </ul>
+  </div>
+  <div class="search">
+    <input type="text" placeholder="搜索课程、问答" class="txt">
+    <button class="but"><i class="icon3"></i></button>
+  </div>
+  <div class="icon">
+    <ul>
+      <li>
+        <i class="icon1"></i>
+        <ul>
+          <li><a href="">@我的</a></li>
+          <li><a href="">收到的赞</a></li>
+          <li><a href="">评论</a></li>
+        </ul>
+      </li>
+      <li>
+        <i class="icon2"></i>
+        <ul>
+          <li><a href="">个人主页</a></li>
+          <li><a href="">设置</a></li>
+          <li><a href="">退出</a></li>          
+        </ul>
+      </li>
+    </ul>
+  </div>
+</nav>

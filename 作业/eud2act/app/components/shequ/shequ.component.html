@@ -1,0 +1,49 @@
+<div class="body">
+  <div class="container">
+    <ul>
+      <li *ngFor="let community of communitys;">
+        <a [routerLink]="['/shequ',community.id]">
+        <div class="image1">
+          <img src="{{community.image1}}" alt="" class="img1">
+        </div>
+        <div class="image2">
+          <div class="com1">
+            <img src="{{community.image2}}" alt="" class="img2">
+          </div>
+          <div class="com2">
+            
+            <span class="name"><i class="icon"></i>{{community.lessonName}}</span>
+            <span class="introduce">{{community.introduce}}</span>
+          </div>
+          <div class="com3">
+            <div class="aut">
+              <span class="author">{{community.author}}&nbsp;&nbsp;·</span>
+              <span>{{community.hour}}</span>     
+            </div>
+            <div class="rea">
+                <span>阅读&nbsp;{{community.read}}</span>
+                <span>&nbsp;|&nbsp;</span>
+                <span>评论&nbsp;{{community.suggection}}</span>     
+            </div>
+          </div>
+        </div>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div class="body-right">
+    <span class="topic">热门话题</span>
+    <ul>
+      <li><a href="#" class="a">#2016级程序设计大赛</a>#<span class="wan">6万</span></li>
+      <li><a href="#" class="a">#2015级面向对象程序设计大赛</a>#<span class="wan">3万</span></li>
+      <li><a href="#" class="a2">#cms与模板制作</a>#<span class="wan">3万</span></li>
+      <li><a href="#" class="a">#数据库原理（5.6.7.8）</a>#<span class="wan">6万</span></li>
+      <li><a href="#" class="a">#2014级PHP程序设计大赛</a>#<span class="wan">6万</span></li>
+      <li><a href="#" class="a">#Web开发（二）2015级3、4班</a>#<span class="wan">6万</span></li>
+      <li><a href="#" class="a">#数据库系统概论 2014级1、2班</a>#<span class="wan">6万</span></li>
+      <li><a href="#" class="a">#Web开发（二）2015级5、6班</a>#<span class="wan">6万</span></li>
+      <li><a href="#" class="a">#web开发（一）2015级7、8班</a>#<span class="wan">6万</span></li>
+      <li><a href="#" class="a1">#数据结构</a>#<span class="wan">6万</span></li>      
+    </ul>
+  </div>
+</div>
