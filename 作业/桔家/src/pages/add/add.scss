@@ -1,0 +1,40 @@
+page-add {
+    ion-content{
+        background-color:#ffdb2c!important;
+        // text-align: center;
+        .jia{
+            text-align: center;
+            position:absolute;
+	        top:50%;
+	        left:50%;
+	        margin:-190px 0 0 -150px;
+	        width:300px;
+	        height:380px;
+            .first{
+                width:50%;
+                height:180px;
+                float: left;
+                margin:0px 0px 20px 0px;
+                text-align: center;
+                .second{
+                    margin-left: 25px;
+                    width:100px;
+                    height:100px;
+                    background:white;
+                    border-radius: 50%;
+                    img{
+                        width:35px;
+                        height:35px;
+                        margin-top:30px;
+                    }
+                }
+                .p1{
+                    font-size: 20px;
+                    font-weight: bold;
+                    margin-bottom: -2px;
+                }
+            }
+        }
+
+    }
+}

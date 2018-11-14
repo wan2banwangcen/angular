@@ -1,0 +1,92 @@
+page-b {
+    ion-content{
+        background-color:#eeeeee!important;
+        .top{
+            margin:0!important;
+            width:400px;
+            height:200px;
+            background-image: url(../assets/imgs/wo_02.png);
+            background-size: cover;
+            text-align: center;
+            img{
+                margin-top:30px;
+                width:120px;
+                height:120px;
+                border-radius: 50%;
+            }
+            p{
+                margin-top:0px;
+                color:black;
+                font-weight: bold;
+            }
+        }
+        .dingdan{
+            height:50px;
+            .dingdan1{
+                float: left;
+                font-weight: bold;
+                margin-left: 10px;
+            }
+            .dingdan2{
+                float: right;
+                margin-right:10px;
+            }
+        }
+        .wode{
+            height:85px;
+            margin:0px;
+            padding:0px;
+            .first{
+                text-align: center;
+                width:32.5%;
+                float: left;
+                margin:0px 0px 0px 0.5%; 
+                background:#ffdb2c;
+                img{
+                    margin-top:10px;
+                    width:35px;
+                    height:35px;
+                }
+                p{
+                    margin-top:0px;
+                }
+            }
+            .second{
+                text-align: center;
+                width:32.4%;
+                float: left;
+                margin:0px 0px 0px 0.5%; 
+                background:white;
+                img{
+                    margin-top:10px;
+                    width:35px;
+                    height:35px;
+                }
+                p{
+                    margin-top:0px;
+                }
+            }
+        }
+        .goods{
+            margin-top:5px;
+            padding:0px;
+            .first{
+                height:100px;
+                text-align: center;
+                width:49%;
+                float: left;
+                margin:0px 0px 5px 0.5%; 
+                background:white;
+                img{
+                    margin-top:20px;
+                    width:35px;
+                    height:35px;
+                    line-height: 80px;
+                }
+                p{
+                    margin-top:0px;
+                }
+            }
+        }
+    }
+}   
